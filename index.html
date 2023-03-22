@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Variable-ok
+        //if else-ok
+        /*var marks=61;
+        if(marks<=100 && marks>80){
+            document.write("GPA : A+")
+        }
+        else if(marks<=79 && marks>70){
+            document.write("GPA : A")
+        }
+        else if(marks<=69 && marks>60){
+            document.write("GPA : A-")
+        }
+        else if(marks<=59 && marks>50){
+            document.write("GPA : B")
+        }
+        else if(marks<=49 && marks>40){
+            document.write("GPA : C")
+        }
+        else if(marks<=39 && marks>=33){
+            document.write("GPA : D")
+        }
+        else if(marks<=32 && marks>=1){
+            document.write("GPA : F")
+        }
+        
+        else{
+            document.write("Not valid")
+        }
+        //switch case
+        var mark = 100;
+        switch(true){
+            case(mark<=100 && mark>=80):
+            document.write("GPA: A+");
+            break;
+
+            case(mark<=100 && mark>=80):
+            document.write("GPA: A+");
+            break;
+
+            case(mark<80 && mark>=70):
+            document.write("GPA: A");
+            break;
+
+            case(mark<70 && mark>=60):
+            document.write("GPA: A-");
+            break;
+
+            case(mark<60 && mark>=50):
+            document.write("GPA: B");
+            break;
+
+            case(mark<50 && mark>=40):
+            document.write("GPA: C");
+            break;
+
+            case(mark<40 && mark>=33):
+            document.write("GPA: D");
+            break;
+
+            default:
+            document.write("GPA: F");
+            break;
+        }
+        // Loops
+        //For Loop- Entry Control loop
+
+        var i ;
+        for(i=0;i<10;i++){
+            document.write(i+" <button>For loop     </button> <br>");
+        }
+        //while loop- Entry Control loop
+       var i=0;
+       while(i<10){
+            document.write(i+" <button>For loop     </button> <br>");
+            i++;
+       }
+       //Do while loop- Exit control loop
+       
+       var i=0;
+       do{
+        document.write(i+" <button>For loop </button> <br>")
+        i=i+1;
+       }while(i<6)
+
+       function addTwoNumbers(){
+        var a = 20;
+        var b = 30;
+        var c = a+b;
+        document.write(c+"<br>");
+       }
+       addTwoNumbers();
+       addTwoNumbers();
+*/
+for(var i=1;i<=10;i++){
+    multiplicationTable(i);
+    document.write("");
+}
+function multiplicationTable(num){
+    for(var i=1; i<=10; i++){
+        var row=num+"*"+i+"="+num*i+"<br>";
+        document.write(row);
+    }
+}
+
+    </script>
+</body>
+</html>
